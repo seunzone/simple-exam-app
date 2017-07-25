@@ -9,12 +9,22 @@
 
 <body>
 	<div class="myDiv" align="center">
-		<h1>Click Start Once You're Ready to Start Your Exams</h1>
-			<form action="views/exam.php" method="POST">
-				
-				<br><button class="myButton">Start</button>
-			</form>
+					
+		<a href="http://localhost/movement/simple-exam-app/views/set_exam.php">
+			<button class="myButton">Set questions</button>
+		</a><br><br><br>
+					
+		<form action="views/take_exam.php" method="POST">
+			<select name="q_type">
+				<?php 
+                  require "logics/functions.php";
+                  select_questions();
+                ?>
+			</select><br>
+			<input type="submit" name="submit" value="Answer questions" class="myButton">
+		</form>
 	</div>
 </body>
 
 </html> 
+

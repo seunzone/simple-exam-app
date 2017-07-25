@@ -9,12 +9,13 @@
 
 <body>
 	<div class="myDiv" align="center">
-		
+		<form action="results.php" method="POST">
 			<?php 
-				require"../logics/take_score.php";
-				
+			
+				require"../logics/functions.php";
+				questions($_POST['q_type']);
 			?><br><br>
-		<a href="http://localhost/movement/simple-exam-app/" class="myButton"> Take another</a>
+		<input type="submit" class="myButton" name="submit">
 	</div>
 </body>
 

@@ -34,7 +34,13 @@
 .questions{
 	
 	margin-top:10px;
+	width: 100%;
 }
 body{
 	background-color:blue;
 }
+
+input{
+	
+}
+

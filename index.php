@@ -10,7 +10,11 @@
 <body>
 	<div class="myDiv" align="center">
 					
-		<a href="http://localhost/movement/simple-exam-app/views/set_exam.php">
+
+		<a href="views/set_exam.php">
+
+		<a href="views/set_exam.php">
+
 			<button class="myButton">Set questions</button>
 		</a><br><br><br>
 					

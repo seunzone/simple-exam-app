@@ -14,7 +14,7 @@
 				require"../logics/take_score.php";
 				
 			?><br><br>
-		<a href="http://localhost/movement/simple-exam-app/" class="myButton"> Take another</a>
+		<a href="../index.php" class="myButton"> Take another</a>
 	</div>
 </body>
 
